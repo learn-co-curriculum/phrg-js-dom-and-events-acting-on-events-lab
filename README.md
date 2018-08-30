@@ -150,6 +150,9 @@ While this isn't tested, and this was meant as a code-along, we have not yet imp
 
 Think about what needs to change to make a `moveDodgerRight()` function. We'll need another `e.which` in the event listener, and instead of moving the dodger `${left - 1}px`, we'll be moving it `${left + 1}px` (or `${right - 1}px`, if you prefer). To prevent the dodger from escaping off the right-hand side, you can make sure that `dodger.style.right` is always greater than `0px`.
 
+## Does this need an update?
+ Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-js-dom-and-events-acting-on-events-lab/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-js-dom-and-events-acting-on-events-lab/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 ## Resources
 
 - [Don't Look Back](http://terrycavanaghgames.com/dontlookback/)
